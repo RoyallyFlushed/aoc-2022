@@ -1,5 +1,5 @@
 
-# Day 1 Solution In C
+# [Day 1](https://adventofcode.com/2022/day/1) Solution In C
 
 ## Quick Start
 
