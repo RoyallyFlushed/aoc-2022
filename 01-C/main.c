@@ -118,7 +118,7 @@ int main(int argc, char **argv)
 {
     // Check if enough args have been given
     if (argc < 2) {
-        printf("Too few arguments given!\n Usage: $ ./main FILE_PATH\n");
+        fprintf(stderr, "Too few arguments given!\n Usage: $ ./main FILE_PATH\n");
         exit(1);
     }
 
