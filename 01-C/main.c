@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/types.h>
 
 void compute_highest_calories(FILE *file, 
                               int depth, 
@@ -70,7 +71,7 @@ next_line:
     rewind(file);
 }
 
-void part_1(FILE *file)
+void part_one(FILE *file)
 {
     // Set depth
     int depth = 1;
@@ -86,7 +87,7 @@ void part_1(FILE *file)
     printf("Elf: %u     Calories: %u\n", highest_elves[0], highest_calories[0]);
 }
 
-void part_2(FILE *file)
+void part_two(FILE *file)
 {
     // Set depth
     int depth = 3;
@@ -136,10 +137,10 @@ int main(int argc, char **argv)
 
     // Run solutions
     printf("==== Part 1 ====\n\n");
-    part_1(file);
+    part_one(file);
 
     printf("\n==== Part 2 ====\n\n");
-    part_2(file);
+    part_two(file);
 
     // Clean up
     fclose(file);
