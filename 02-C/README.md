@@ -9,7 +9,17 @@
 ## Expected Result
 
 ```console
+Input File: input.txt
 
+==== Part 1 ====
+
+Opponent Total Score: 12355
+Player Total Score: 13052
+
+==== Part 2 ====
+
+Opponent Total Score: 11719
+Player Total Score: 13693
 ```
 
 ## Tested On

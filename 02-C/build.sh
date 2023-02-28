@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/sh
 
 set -xe
 
-gcc main.c -o main
+gcc -Wall -Wextra -pedantic -ggdb main.c -o main
