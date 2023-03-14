@@ -76,7 +76,6 @@ defer:
 // Tokenises the the content by lines
 void split_by_lines(char *buffer, size_t buffer_size, char ***lines, size_t *lines_count)
 {
-    (void) lines;
     size_t line_count = 1;
 
     // Get number of lines
